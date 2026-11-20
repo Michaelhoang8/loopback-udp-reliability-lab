@@ -1,0 +1,17 @@
+scenario,attempt_budget,trials,sender_completed,receiver_completed,byte_matches,median_terminal_ms,median_retransmissions
+baseline,1,3,3,3,3,1.2307,0
+baseline,4,3,3,3,3,1.1464,0
+drop_data,1,3,0,0,0,61.0738,0
+drop_data,4,3,3,3,3,46.7885,1
+drop_ack,1,3,0,0,0,61.054,0
+drop_ack,4,3,3,3,3,61.5017,1
+duplicate_data,1,3,3,3,3,1.17,0
+duplicate_data,4,3,3,3,3,0.9832,0
+delayed_ack,1,3,0,0,0,60.5964,0
+delayed_ack,4,3,3,3,3,46.7672,1
+corrupt_data,1,3,0,0,0,60.239,0
+corrupt_data,4,3,3,3,3,46.9296,1
+drop_final_done,1,3,0,3,3,60.2377,0
+drop_final_done,4,3,3,3,3,61.3146,1
+drop_all_done,1,3,0,3,3,60.9226,0
+drop_all_done,4,3,0,3,3,203.5231,3

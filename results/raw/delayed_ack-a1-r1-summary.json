@@ -1,0 +1,52 @@
+{
+  "scenario": "delayed_ack",
+  "max_attempts": 1,
+  "timeout_ms": 45.0,
+  "payload_bytes": 2701,
+  "chunks": 6,
+  "session": "f96da959c1face4872e1f9eee7df4fd2",
+  "sender_status": "FAILED",
+  "failure": "ACK_TIMEOUT",
+  "receiver_complete": false,
+  "received_bytes": 1024,
+  "source_sha256": "77ff0113bd9ccd2c69ef4640e57f8a5da12c69d43f37c259b2b56fc680e2af02",
+  "received_sha256": "98e9180dc88d3bda9afe1961a6a96e3ad23e197f378ff842f2e3e3fb9cbb03a4",
+  "received_payload_hex": "19a47e1e70bcc9515adfa480fc2f8bf33bd0068397c7aea590ff28dc4992f4f38468461acbac55e2222d2939821412e51d25dd990495199fe9a67a8ee26bad6b75288bc88fde9392165f3d8ccca3a7d7799a04bbe975cdc6bf34a3c429e9ab7dbd3c43c0fa18e8c5e63a26960a9aeb70e3516c3d931fa600ec7d3c9d714eaa14f53a591c10938849ad4517d13ae9191952941c7399eef002964994d0073216e461d467af776e837d116fecad0e9571508048d1352d0ab065bc296340c91a00590889dbfa0983b8ff0cbde7ed12804c5be0621dceca1c5860ab76e9ff68e2f7be35797a838c7341a372b38913d9dd1db9551924578148f4160f14b58e1c9cbe89c07fc84adc47a049834c1b755842112424a760e0bb4911a5b5bd37b410ff66b77004d2931d8a1a4f96505506890b09d9e012fbb592996c5e9d1a115d42d908762972166c7214371727021666cd8616e4519af195255ff08d98c09a7fe17902de4c88cf1d66dae96c05baa08100de73cdba9e09c061a3e3ddf06da4993e681ce04d30b47de40ded659b6eb0eaf3a34f86a6743642f1b02fd8c9e6826be34f6290169d1ded0f9e75fb9f31ac7a3fa75083b5cf9a84d9d31fcefc0c7f064008559323767a39b5310dc49e110621bd1c71d186e7830c9b2975f654c564b4e084f185c4f006e30ec7a4ab1e72421a4f77a1b72bb04f9f6ac8ed6d149054783c267524c6c36b7b4ae361e239fa9a3a594581d993bbcbe2b2423c1f697a6da01c8e61b3f59af074df219fac6bfe2a78f5ffeab6da65f1ed5fcaa9f567d1bafc2c0097fa668eae8beef541404fcb4e8f57bcee6657fe74ab6a2a8bff54a9c04e5f76538cecd2bfccdbd098a5307e7c802355c5b2acb9987a878d0dce4a526be22711e666d877dd6e0818d933951a5c4bee98f3d4138adf447cf85f0255d97908ea285c265133d8a7e87bcde1b7e5e698728ceef5f4644e758840b5cd680adc85b8194ded5705517daec1245ca90fe8eb168e2833509a9642ff5f51b148424e7c55c676772361e2828cab46c4731b80d396b0457f446bd6cef1a9296fb078ce8e7c30f5a97d9942e823519b0878d2d6d4e4f8414aa770105179ea2875d62bb4ea64c3d8cfa9092f19cf533e70db2278b0c3c06db75644fbc8000654f65a66e28325c242426a9cf273b14306ec35d11bf7c149dc2e82dc9ef7f0b0ff6c0822aad75c875cba1654a97abedeacf0b0a57510f34107a6f31f3744ea493ce7a680987f60c2c05e74e0be189c6dd031e2855fbf92944cdbd6aa4b6924c37725dc890b73b57a9eea1da39703065d9817d0050e0096d483739cd2a494655bed8b4e3da3ee085e1bd6efc8431530b9319cea8c34cb4c03e4322649723ffcfced1edabffe9ef3c66e0bd49179c07f0ee48bec75d4f4cecdbe44225121ab2b19f6c16a21aaa218c7745b",
+  "bytes_match": false,
+  "sent_frames": 2,
+  "retransmissions": 0,
+  "receiver_duplicates": 0,
+  "relay_drops": 0,
+  "relay_duplicates": 0,
+  "relay_delays": 1,
+  "relay_corruptions": 0,
+  "start_ns": 499900,
+  "finish_ns": 61096300,
+  "sender_duration_ms": 60.5964,
+  "socket_addresses": {
+    "sender": [
+      "127.0.0.1",
+      53096
+    ],
+    "receiver": [
+      "127.0.0.1",
+      53097
+    ],
+    "relay": [
+      "127.0.0.1",
+      53098
+    ]
+  },
+  "scheduled_faults": [
+    {
+      "direction": "to_sender",
+      "kind": "ACK",
+      "sequence": 1,
+      "action": "delay",
+      "occurrence": 1,
+      "delay_seconds": 0.09
+    }
+  ],
+  "run_id": "delayed_ack-a1-r1",
+  "repetition": 1
+}

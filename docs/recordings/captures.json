@@ -1,0 +1,44 @@
+{
+  "captured_at_utc": "2026-11-20T23:29:20.105577+00:00",
+  "source": "Actual browser rendering of docs/report.html",
+  "recording": "Continuous automated browser review; not manual development footage",
+  "viewport": {
+    "width": 1440,
+    "height": 1000
+  },
+  "page_title": "Loopback UDP reliability",
+  "report_sha256_normalized_text": "c73401714d01b8fb0f31a06aec43ffc7f6faac876c88b2592365f2507a081581",
+  "video_sha256": "90301d45fe2e1500d8794c760515c516b37a84328bcf54ac2d64ac39a1221f65",
+  "captures": [
+    {
+      "path": "docs/screenshots/01_overview.png",
+      "section": "overview",
+      "sha256": "6f0bb12192100bcb321e417f63fa852c96bcf265fee7b64061df9d3d05e5c52c"
+    },
+    {
+      "path": "docs/screenshots/02_protocol.png",
+      "section": "protocol",
+      "sha256": "426bfa106132b03043d466de7acc0930156fd21d9dbdd643a5618597452403b1"
+    },
+    {
+      "path": "docs/screenshots/03_retransmission.png",
+      "section": "retransmission",
+      "sha256": "54253ff3954e56187be439bd5af7080944fb08497a43a10450a7d8b1ff84d00c"
+    },
+    {
+      "path": "docs/screenshots/04_completion.png",
+      "section": "completion",
+      "sha256": "3b3362a4fca5cb1a2dc04b4df1a2a5ba5f02d707f0f30c509fdad2f9c40c9dbb"
+    },
+    {
+      "path": "docs/screenshots/05_results.png",
+      "section": "results",
+      "sha256": "ae8a3be631ce1f511dcba5c0a98b0dc51c24358a57602a398784be877c54e92e"
+    },
+    {
+      "path": "docs/screenshots/06_method.png",
+      "section": "method",
+      "sha256": "09b9660e4a3db12f1a25d68e535368a0d6878a883057d0d187ac6debd7e13280"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "recorded_at_utc": "2026-11-20T23:26:37.984592+00:00",
+  "python": "3.13.17",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "logical_cpus": 12,
+  "repetitions": 3,
+  "payload_seed": 2026,
+  "payload_bytes": 2701,
+  "matplotlib": "3.11.2",
+  "numpy": "2.3.5",
+  "clock": "perf_counter_ns for trace; monotonic for retry deadlines",
+  "binding": "127.0.0.1 with ephemeral ports",
+  "telemetry": "application event instrumentation, not PCAP"
+}

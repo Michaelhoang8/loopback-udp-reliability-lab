@@ -1,0 +1,24 @@
+{"event_id": 0, "time_ns": 562600, "role": "sender", "event": "sent", "kind": "DATA", "sequence": 0, "total": 6, "session": "3f5cf63175ffff97797d975ed1f93cee", "payload_bytes": 512, "attempt": 1}
+{"event_id": 1, "time_ns": 596700, "role": "relay", "event": "received", "kind": "DATA", "sequence": 0, "total": 6, "session": "3f5cf63175ffff97797d975ed1f93cee", "payload_bytes": 512, "direction": "to_receiver", "occurrence": 1}
+{"event_id": 2, "time_ns": 668300, "role": "relay", "event": "forwarded", "kind": "DATA", "sequence": 0, "total": 6, "session": "3f5cf63175ffff97797d975ed1f93cee", "payload_bytes": 512, "direction": "to_receiver"}
+{"event_id": 3, "time_ns": 688500, "role": "receiver", "event": "received", "kind": "DATA", "sequence": 0, "total": 6, "session": "3f5cf63175ffff97797d975ed1f93cee", "payload_bytes": 512}
+{"event_id": 4, "time_ns": 696200, "role": "receiver", "event": "accepted_data", "kind": "DATA", "sequence": 0, "total": 6, "session": "3f5cf63175ffff97797d975ed1f93cee", "payload_bytes": 512}
+{"event_id": 5, "time_ns": 728400, "role": "receiver", "event": "sent", "kind": "ACK", "sequence": 0, "total": 6, "session": "3f5cf63175ffff97797d975ed1f93cee", "payload_bytes": 0}
+{"event_id": 6, "time_ns": 741700, "role": "relay", "event": "received", "kind": "ACK", "sequence": 0, "total": 6, "session": "3f5cf63175ffff97797d975ed1f93cee", "payload_bytes": 0, "direction": "to_sender", "occurrence": 1}
+{"event_id": 7, "time_ns": 758800, "role": "relay", "event": "forwarded", "kind": "ACK", "sequence": 0, "total": 6, "session": "3f5cf63175ffff97797d975ed1f93cee", "payload_bytes": 0, "direction": "to_sender"}
+{"event_id": 8, "time_ns": 775800, "role": "sender", "event": "received", "kind": "ACK", "sequence": 0, "total": 6, "session": "3f5cf63175ffff97797d975ed1f93cee", "payload_bytes": 0}
+{"event_id": 9, "time_ns": 780000, "role": "sender", "event": "accepted_ack", "kind": "ACK", "sequence": 0, "total": 6, "session": "3f5cf63175ffff97797d975ed1f93cee", "payload_bytes": 0}
+{"event_id": 10, "time_ns": 804400, "role": "sender", "event": "sent", "kind": "DATA", "sequence": 1, "total": 6, "session": "3f5cf63175ffff97797d975ed1f93cee", "payload_bytes": 512, "attempt": 1}
+{"event_id": 11, "time_ns": 825700, "role": "relay", "event": "received", "kind": "DATA", "sequence": 1, "total": 6, "session": "3f5cf63175ffff97797d975ed1f93cee", "payload_bytes": 512, "direction": "to_receiver", "occurrence": 1}
+{"event_id": 12, "time_ns": 857600, "role": "relay", "event": "forwarded", "kind": "DATA", "sequence": 1, "total": 6, "session": "3f5cf63175ffff97797d975ed1f93cee", "payload_bytes": 512, "direction": "to_receiver"}
+{"event_id": 13, "time_ns": 869200, "role": "receiver", "event": "received", "kind": "DATA", "sequence": 1, "total": 6, "session": "3f5cf63175ffff97797d975ed1f93cee", "payload_bytes": 512}
+{"event_id": 14, "time_ns": 873100, "role": "receiver", "event": "accepted_data", "kind": "DATA", "sequence": 1, "total": 6, "session": "3f5cf63175ffff97797d975ed1f93cee", "payload_bytes": 512}
+{"event_id": 15, "time_ns": 889100, "role": "receiver", "event": "sent", "kind": "ACK", "sequence": 1, "total": 6, "session": "3f5cf63175ffff97797d975ed1f93cee", "payload_bytes": 0}
+{"event_id": 16, "time_ns": 903700, "role": "relay", "event": "received", "kind": "ACK", "sequence": 1, "total": 6, "session": "3f5cf63175ffff97797d975ed1f93cee", "payload_bytes": 0, "direction": "to_sender", "occurrence": 1}
+{"event_id": 17, "time_ns": 921400, "role": "relay", "event": "forwarded", "kind": "ACK", "sequence": 1, "total": 6, "session": "3f5cf63175ffff97797d975ed1f93cee", "payload_bytes": 0, "direction": "to_sender"}
+{"event_id": 18, "time_ns": 932500, "role": "sender", "event": "received", "kind": "ACK", "sequence": 1, "total": 6, "session": "3f5cf63175ffff97797d975ed1f93cee", "payload_bytes": 0}
+{"event_id": 19, "time_ns": 935500, "role": "sender", "event": "accepted_ack", "kind": "ACK", "sequence": 1, "total": 6, "session": "3f5cf63175ffff97797d975ed1f93cee", "payload_bytes": 0}
+{"event_id": 20, "time_ns": 955200, "role": "sender", "event": "sent", "kind": "DATA", "sequence": 2, "total": 6, "session": "3f5cf63175ffff97797d975ed1f93cee", "payload_bytes": 512, "attempt": 1}
+{"event_id": 21, "time_ns": 967500, "role": "relay", "event": "received", "kind": "DATA", "sequence": 2, "total": 6, "session": "3f5cf63175ffff97797d975ed1f93cee", "payload_bytes": 512, "direction": "to_receiver", "occurrence": 1}
+{"event_id": 22, "time_ns": 970800, "role": "relay", "event": "drop", "kind": "DATA", "sequence": 2, "total": 6, "session": "3f5cf63175ffff97797d975ed1f93cee", "payload_bytes": 512, "direction": "to_receiver", "occurrence": 1, "delay_seconds": 0.0}
+{"event_id": 23, "time_ns": 61487100, "role": "sender", "event": "terminal", "status": "FAILED", "failure": "ACK_TIMEOUT"}

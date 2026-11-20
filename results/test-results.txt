@@ -1,0 +1,17 @@
+test_malformed_datagrams (test_protocol.CodecTests.test_malformed_datagrams) ... ok
+test_public_input_bounds (test_protocol.CodecTests.test_public_input_bounds) ... ok
+test_roundtrips_and_maximum_transfer (test_protocol.CodecTests.test_roundtrips_and_maximum_transfer) ... ok
+test_ack_validation_and_replay (test_protocol.StateMachineTests.test_ack_validation_and_replay) ... ok
+test_empty_transfer_and_final_reply_exhaustion (test_protocol.StateMachineTests.test_empty_transfer_and_final_reply_exhaustion) ... ok
+test_fin_integrity_and_lost_done (test_protocol.StateMachineTests.test_fin_integrity_and_lost_done) ... ok
+test_receiver_dedup_conflict_and_future (test_protocol.StateMachineTests.test_receiver_dedup_conflict_and_future) ... ok
+test_timeout_exact_boundary_and_budget (test_protocol.StateMachineTests.test_timeout_exact_boundary_and_budget) ... ok
+test_empty_actual_transfer (test_sockets.LoopbackIntegrationTests.test_empty_actual_transfer) ... ok
+test_repeated_actual_socket_fault_matrix (test_sockets.LoopbackIntegrationTests.test_repeated_actual_socket_fault_matrix) ... ok
+test_single_attempt_loss_does_not_claim_completion (test_sockets.LoopbackIntegrationTests.test_single_attempt_loss_does_not_claim_completion) ... ok
+test_first_request_and_reply_loss_with_delayed_duplicates (test_state_review.CombinedFaultReview.test_first_request_and_reply_loss_with_delayed_duplicates) ... ok
+
+----------------------------------------------------------------------
+Ran 12 tests in 3.447s
+
+OK

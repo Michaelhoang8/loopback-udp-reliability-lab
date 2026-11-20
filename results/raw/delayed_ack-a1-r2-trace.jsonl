@@ -1,0 +1,20 @@
+{"event_id": 0, "time_ns": 624900, "role": "sender", "event": "sent", "kind": "DATA", "sequence": 0, "total": 6, "session": "f96da959c1face4872e1f9eee7df4fd2", "payload_bytes": 512, "attempt": 1}
+{"event_id": 1, "time_ns": 661300, "role": "relay", "event": "received", "kind": "DATA", "sequence": 0, "total": 6, "session": "f96da959c1face4872e1f9eee7df4fd2", "payload_bytes": 512, "direction": "to_receiver", "occurrence": 1}
+{"event_id": 2, "time_ns": 733900, "role": "relay", "event": "forwarded", "kind": "DATA", "sequence": 0, "total": 6, "session": "f96da959c1face4872e1f9eee7df4fd2", "payload_bytes": 512, "direction": "to_receiver"}
+{"event_id": 3, "time_ns": 751100, "role": "receiver", "event": "received", "kind": "DATA", "sequence": 0, "total": 6, "session": "f96da959c1face4872e1f9eee7df4fd2", "payload_bytes": 512}
+{"event_id": 4, "time_ns": 757200, "role": "receiver", "event": "accepted_data", "kind": "DATA", "sequence": 0, "total": 6, "session": "f96da959c1face4872e1f9eee7df4fd2", "payload_bytes": 512}
+{"event_id": 5, "time_ns": 784800, "role": "receiver", "event": "sent", "kind": "ACK", "sequence": 0, "total": 6, "session": "f96da959c1face4872e1f9eee7df4fd2", "payload_bytes": 0}
+{"event_id": 6, "time_ns": 804800, "role": "relay", "event": "received", "kind": "ACK", "sequence": 0, "total": 6, "session": "f96da959c1face4872e1f9eee7df4fd2", "payload_bytes": 0, "direction": "to_sender", "occurrence": 1}
+{"event_id": 7, "time_ns": 833900, "role": "relay", "event": "forwarded", "kind": "ACK", "sequence": 0, "total": 6, "session": "f96da959c1face4872e1f9eee7df4fd2", "payload_bytes": 0, "direction": "to_sender"}
+{"event_id": 8, "time_ns": 846000, "role": "sender", "event": "received", "kind": "ACK", "sequence": 0, "total": 6, "session": "f96da959c1face4872e1f9eee7df4fd2", "payload_bytes": 0}
+{"event_id": 9, "time_ns": 849600, "role": "sender", "event": "accepted_ack", "kind": "ACK", "sequence": 0, "total": 6, "session": "f96da959c1face4872e1f9eee7df4fd2", "payload_bytes": 0}
+{"event_id": 10, "time_ns": 869900, "role": "sender", "event": "sent", "kind": "DATA", "sequence": 1, "total": 6, "session": "f96da959c1face4872e1f9eee7df4fd2", "payload_bytes": 512, "attempt": 1}
+{"event_id": 11, "time_ns": 882200, "role": "relay", "event": "received", "kind": "DATA", "sequence": 1, "total": 6, "session": "f96da959c1face4872e1f9eee7df4fd2", "payload_bytes": 512, "direction": "to_receiver", "occurrence": 1}
+{"event_id": 12, "time_ns": 897400, "role": "relay", "event": "forwarded", "kind": "DATA", "sequence": 1, "total": 6, "session": "f96da959c1face4872e1f9eee7df4fd2", "payload_bytes": 512, "direction": "to_receiver"}
+{"event_id": 13, "time_ns": 908000, "role": "receiver", "event": "received", "kind": "DATA", "sequence": 1, "total": 6, "session": "f96da959c1face4872e1f9eee7df4fd2", "payload_bytes": 512}
+{"event_id": 14, "time_ns": 911400, "role": "receiver", "event": "accepted_data", "kind": "DATA", "sequence": 1, "total": 6, "session": "f96da959c1face4872e1f9eee7df4fd2", "payload_bytes": 512}
+{"event_id": 15, "time_ns": 924300, "role": "receiver", "event": "sent", "kind": "ACK", "sequence": 1, "total": 6, "session": "f96da959c1face4872e1f9eee7df4fd2", "payload_bytes": 0}
+{"event_id": 16, "time_ns": 933900, "role": "relay", "event": "received", "kind": "ACK", "sequence": 1, "total": 6, "session": "f96da959c1face4872e1f9eee7df4fd2", "payload_bytes": 0, "direction": "to_sender", "occurrence": 1}
+{"event_id": 17, "time_ns": 937300, "role": "relay", "event": "delay", "kind": "ACK", "sequence": 1, "total": 6, "session": "f96da959c1face4872e1f9eee7df4fd2", "payload_bytes": 0, "direction": "to_sender", "occurrence": 1, "delay_seconds": 0.09}
+{"event_id": 18, "time_ns": 46005100, "role": "sender", "event": "terminal", "status": "FAILED", "failure": "ACK_TIMEOUT"}
+{"event_id": 19, "time_ns": 94062100, "role": "relay", "event": "forwarded", "kind": "ACK", "sequence": 1, "total": 6, "session": "f96da959c1face4872e1f9eee7df4fd2", "payload_bytes": 0, "direction": "to_sender"}
