@@ -1,5 +1,7 @@
 # Loopback UDP reliability lab
 
+**[View the report in your browser](https://Michaelhoang8.github.io/loopback-udp-reliability-lab/)**
+
 A bounded stop-and-wait byte-transfer protocol using real UDP sockets, with a local relay that drops, duplicates, delays and corrupts predeclared datagrams. The sender, relay and receiver bind only to `127.0.0.1` on ephemeral ports.
 
 ![Final handshake after a lost reply](docs/charts/final-handshake.png)
