@@ -1,0 +1,7 @@
+{
+  "archived_utc": "2026-11-21T01:03:09.656656+00:00",
+  "purpose": "Exact original measured driver before responsive presentation-only changes. No measurements were resampled. Current results/source-sha256.json also tracks the later renderer/verification state; this snapshot retains the actual original driver.",
+  "source_path": "scripts/run_study.py",
+  "archived_path": "results/measurement-sources/run_study.py",
+  "sha256_lf": "4374e37be4599742b3400b768f8db65646a8de13b9fcbc91800cc068fe2bf4f0"
+}

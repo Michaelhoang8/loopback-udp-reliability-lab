@@ -46,3 +46,9 @@ The driver runs the complete test suite before fresh measurements. It preserves 
 The comparison is the same protocol with one versus four attempts per frame. It is not a comparison against an optimized best-effort UDP implementation. Fault keys match direction, kind, sequence and occurrence, so both budgets encounter the same declared rule if they reach its target. An early failure can prevent later targets from being reached.
 
 Terminal time includes successes and retry-budget failures. It is not WAN latency or a throughput estimate. The report keeps receiver completion, sender confirmation and byte equality visible separately. There is no persistence, congestion control, adaptive retransmission timer, sliding window, restart recovery or exactly-once external execution guarantee.
+
+## Presentation revisions
+
+The responsive report update reuses the recorded measurements. The exact original measured driver is preserved in [results/measurement-sources/run_study.py](results/measurement-sources/run_study.py), with its original LF-normalized SHA256 in the adjacent manifest. The current `results/source-sha256.json` records unchanged measured implementation sources plus the current presentation/verification driver. It does not claim that revised report styling was present during the original measurements.
+
+`python scripts/run_study.py --reuse` checks the measured implementation before regenerating the report from recorded results. No timing samples are collected in that mode. `python scripts/verify_results.py` checks the archived driver hash as well as the measured evidence.

@@ -1,5 +1,5 @@
 {
-  "captured_at_utc": "2026-11-20T23:29:20.105577+00:00",
+  "captured_at_utc": "2026-11-21T01:06:14.056763+00:00",
   "source": "Actual browser rendering of docs/report.html",
   "recording": "Continuous automated browser review; not manual development footage",
   "viewport": {
@@ -7,8 +7,8 @@
     "height": 1000
   },
   "page_title": "Loopback UDP reliability",
-  "report_sha256_normalized_text": "c73401714d01b8fb0f31a06aec43ffc7f6faac876c88b2592365f2507a081581",
-  "video_sha256": "90301d45fe2e1500d8794c760515c516b37a84328bcf54ac2d64ac39a1221f65",
+  "report_sha256_normalized_text": "5d979462eb3306eb6052bfb097a5f3dcc700bca8c6d37f129652bf25e81efe3b",
+  "video_sha256": "d30746e4190540c7b9445b51f9d7013dddd5e938099f77387d87c127adeb2da3",
   "captures": [
     {
       "path": "docs/screenshots/01_overview.png",

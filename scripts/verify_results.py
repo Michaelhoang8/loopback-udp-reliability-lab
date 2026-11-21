@@ -10,6 +10,12 @@ ROOT = Path(__file__).resolve().parents[1]
 
 
 def verify(output: Path):
+    archived_manifest = output / "results/measurement-sources/manifest.json"
+    if archived_manifest.exists():
+        archived = json.loads(archived_manifest.read_text(encoding="utf-8"))
+        original = (output / archived["archived_path"]).read_bytes()
+        original = original.replace(b"\r\n", b"\n").replace(b"\r", b"\n")
+        assert hashlib.sha256(original).hexdigest() == archived["sha256_lf"]
     environment = json.loads((output / "results/environment.json").read_text())
     payload = random.Random(environment["payload_seed"]).randbytes(
         environment["payload_bytes"]
